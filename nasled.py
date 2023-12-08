@@ -51,7 +51,7 @@ class Employee(Person):
         print(f"{self.name} работает")
 
 
-p1 = Employee("Алиса")
+p1 = Employee("Света")
 print(p1.name)
 p1.display_info()
 p1.work()
@@ -86,6 +86,6 @@ class WorkingStudent(Employee, Student):
     pass
 
 
-ws = WorkingStudent("Вася")
+ws = WorkingStudent("Жора")
 ws.work()
 ws.study()
